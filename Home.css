@@ -188,18 +188,13 @@
   margin: 37px auto 0;
 }
 
-.u-section-4 .u-layout-cell-2 {
+.u-section-4 .u-image-1 {
   min-height: 579px;
+  background-image: url("images/frsky-horus-x10-amber-main_1.jpg");
 }
 
 .u-section-4 .u-container-layout-2 {
   padding: 0;
-}
-
-.u-section-4 .u-image-1 {
-  width: 545px;
-  height: 538px;
-  margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -216,14 +211,9 @@
     margin-right: 0;
   }
 
-  .u-section-4 .u-layout-cell-2 {
-    min-height: 477px;
-    background-position: 50% 50%;
-  }
-
   .u-section-4 .u-image-1 {
-    width: 465px;
-    height: 459px;
+    background-position: 50% 50%;
+    min-height: 477px;
   }
 }
 
@@ -232,30 +222,20 @@
     min-height: 100px;
   }
 
-  .u-section-4 .u-layout-cell-2 {
-    min-height: 365px;
-  }
-
   .u-section-4 .u-image-1 {
-    width: 355px;
-    height: 350px;
+    min-height: 365px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-4 .u-layout-cell-2 {
+  .u-section-4 .u-image-1 {
     min-height: 548px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-4 .u-layout-cell-2 {
-    min-height: 345px;
-  }
-
   .u-section-4 .u-image-1 {
-    width: 340px;
-    height: 335px;
+    min-height: 345px;
   }
 } .u-section-5 {
   min-height: 802px;
